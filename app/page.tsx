@@ -2,6 +2,7 @@ import ScrollyCanvas from "@/components/ScrollyCanvas";
 import Overlay from "@/components/Overlay";
 import Projects from "@/components/Projects";
 import AboutMe from "@/components/AboutMe";
+import Education from "@/components/Education";
 import Achievements from "@/components/Achievements";
 import Skills from "@/components/Skills";
 import Certifications from "@/components/Certifications";
@@ -24,6 +25,7 @@ export default function Home() {
 
       {/* Expanded Sections */}
       <AboutMe />
+      <Education />
       <Skills />
       <Achievements />
 
@@ -37,9 +39,9 @@ export default function Home() {
       {/* Footer */}
       <footer className="w-full py-12 border-t border-white/10 flex flex-col items-center justify-center gap-6 text-neutral-500 text-sm bg-black z-20 relative">
         <div className="flex items-center gap-8 text-base font-medium">
-          <a href="https://github.com/surajagrahari" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition-all">GitHub</a>
-          <a href="https://linkedin.com/in/surajagrahari" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition-all">LinkedIn</a>
-          <a href="https://instagram.com/surajagrahari" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition-all">Instagram</a>
+          <a href="https://github.com/2Surajagrahari" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition-all">GitHub</a>
+          <a href="https://www.linkedin.com/in/suraj-agraharii/" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition-all">LinkedIn</a>
+          <a href="https://www.instagram.com/suraj.agr_/" target="_blank" rel="noopener noreferrer" className="hover:text-white hover:scale-110 transition-all">Instagram</a>
           <a href="mailto:surajagrahari265@gmail.com" className="hover:text-white hover:scale-110 transition-all">Gmail</a>
         </div>
         <p>© {new Date().getFullYear()} Suraj Kumar Agrahari. All rights reserved.</p>
