@@ -44,7 +44,12 @@ function MagneticButton({
 
 export default function AboutMe() {
   const handleDownloadCV = () => {
-    alert("CV Download Initiated!");
+    const link = document.createElement("a");
+    link.href = "/SurajCV (1).pdf";
+    link.download = "Suraj_Agrahari_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
